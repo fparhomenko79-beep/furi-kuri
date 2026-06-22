@@ -1,8 +1,9 @@
-def get_user_name() -> str | None:
-    input_string = input().strip()
-    return input_string if input_string else None
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-def output_welcome(user_name: str | None) -> None:
-    print(f"hello {user_name}!" if user_name else f"hello nameless!")
+def get_array():
+    input_list = list(map(float, input().split()))
+    return np.array(input_list)
 
-output_welcome(get_user_name())
+print(get_array())
