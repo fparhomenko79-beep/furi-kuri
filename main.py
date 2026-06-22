@@ -6,4 +6,8 @@ def get_array():
     input_list = list(map(float, input().split()))
     return np.array(input_list)
 
-print(get_array())
+x = get_array()
+y = get_array()
+
+plt.plot(x, y)
+plt.show()
