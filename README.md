@@ -1,2 +1,2 @@
 # furi-kuri
-ts my first project and start of me as a programmer
+ts the most important program in the world, i hope u already have it on your computer
