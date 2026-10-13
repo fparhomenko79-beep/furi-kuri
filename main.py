@@ -1,23 +1,20 @@
 from turtle import *
 
-K = 30
-
 screensize(2000, 2000)
 tracer(0)
+K = 20
+
 lt(90)
 
-rt(30)
-
-for i in range(3):
-    rt(150)
-    fd(6 * K)
+for i in range(70):
+    fd(8 * K)
     rt(30)
-    fd(12 * K)
 
 up()
-for i in range(-20, 20):
-    for j in range(-20, 20):
+for i in range(35):
+    for j in range(-35, 35):
         goto(i * K, j * K)
-        dot(5, "red")
+        dot(4, "pink")
 
 done()
+
